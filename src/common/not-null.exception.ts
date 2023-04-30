@@ -11,4 +11,5 @@ export class NotNullException extends HttpException {
     constructor(message: string) {
         super(message, 705)
     }   
+    
 }
